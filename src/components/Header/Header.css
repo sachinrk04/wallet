@@ -1,0 +1,21 @@
+.header_body {
+    background: blue;
+    margin: 0;
+    color: white;
+}
+
+.header_nav > ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 30px;
+    margin: 0;
+}
+
+.header_nav > ul > li {
+    padding: 1px 20px;
+    float: right;
+}
+
+.header_login {
+    margin-left: auto;
+}

@@ -1,0 +1,44 @@
+.home_container {
+    height: 100vh;
+    position: relative;
+}
+
+.home_in {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.trangle_one {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 150px solid lavender;
+}
+
+.trangle_two {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 150px solid lavender;
+    position: relative;
+}
+
+.trangle_one > button {
+    position: absolute;
+    top: 110px;
+    left: 60px;
+    width: 80px;
+}
+
+.trangle_two > button {
+    position: absolute;
+    top: -130px;
+    left: -40px;
+    width: 80px;
+}
